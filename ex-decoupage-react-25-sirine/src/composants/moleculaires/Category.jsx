@@ -1,4 +1,4 @@
-import Tag from './Tag'
+import Tag from '../atomiques/Tag'
 
 function Category({nom, count}){
 

@@ -1,6 +1,6 @@
-import Image from './Image'
-import Tag from './Tag'
-import Date from './Date'
+import Image from '../atomiques/Image'
+import Tag from '../atomiques/Tag'
+import Date from '../atomiques/Date'
 
 function MainArticle({url, alt, category, titre, auteur, durée, date, extrait}){
 

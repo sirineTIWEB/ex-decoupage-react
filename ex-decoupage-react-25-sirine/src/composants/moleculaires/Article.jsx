@@ -1,5 +1,5 @@
-import Image from './Image'
-import Tag from './Tag'
+import Image from '../atomiques/Image'
+import Tag from '../atomiques/Tag'
 import Date from '/Date'
 
 function Article({category, date}) {
