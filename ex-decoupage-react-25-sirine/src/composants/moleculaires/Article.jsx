@@ -2,7 +2,7 @@ import Image from '../atomiques/Image'
 import Tag from '../atomiques/Tag'
 import Date from '/Date'
 
-function Article({category, date}) {
+function Article({category, date, url, titre}) {
 
     return (
         <article class="post-card">
