@@ -1,3 +1,5 @@
+// Notions : Router, etc pas encore apprise pour l'appliquer -> structure non récupérable = impertinent de découper
+
 function Header(){
     return(
         <header class="header">
