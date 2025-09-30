@@ -6,7 +6,7 @@ function Form() {
     return (
         <form class="newsletter-form">
             <Input type="email" classe="email-input" placeholder="Votre email" />
-            <Bouton type="submit" class="subscribe-btn"  valeur="S'inscrire"/>
+            <Bouton type="submit" classe="subscribe-btn"  valeur="S'inscrire"/>
         </form>
     )
 }
