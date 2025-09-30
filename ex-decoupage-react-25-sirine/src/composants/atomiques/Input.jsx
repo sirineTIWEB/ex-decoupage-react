@@ -1,4 +1,4 @@
-function Input(){
+function Input({type, classe, placeholder}){
 
     return(
         <>

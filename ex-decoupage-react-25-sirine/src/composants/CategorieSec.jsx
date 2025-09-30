@@ -15,9 +15,9 @@ function CategorieSec(){
         <section class="categories-section">
         <div class="categories-list">
             <h2 class="categories-title">Catégories Populaires</h2>
-            {data.map((category,index => (
+            {data.map((category,index) => (
             <Category key={index} nom={category.nom} count={category.count} />
-        )))}
+        ))}
         </div>
     </section>
     )

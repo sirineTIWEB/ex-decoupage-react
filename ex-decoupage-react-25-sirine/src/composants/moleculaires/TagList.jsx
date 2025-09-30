@@ -16,9 +16,9 @@ function TagList() {
 
     return (
         <div class="tags-list">
-            {data.map((tag,index => (
+            {data.map((tag,index) => (
             <Tag classe="tag" key={index} titre={tag} />
-        )))}
+        ))}
         </div>
     )
 }
