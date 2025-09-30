@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>TechMag - Exercice de découpage React</title>
+    
+    <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+<body>
+    <!-- Header avec logo et navigation -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">TM</div>
+                <div class="logo-text">TechMag</div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#tutoriels">Tutoriels</a></li>
+                    <li><a href="#podcasts">Podcasts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section avec article principal -->
+    <section class="hero-section">
+        <article class="featured-article">
+            <div class="featured-image">
+                <img src="assets/images/IA.png" alt="Intelligence Artificielle">
+            </div>
+            <div class="featured-content">
+                <span class="article-category">Intelligence Artificielle</span>
+                <h1 class="article-title">Les dernières avancées en IA générative transforment le développement</h1>
+                <div class="article-meta">
+                    <div class="author">
+                        <div class="author-avatar"></div>
+                        <span>Marie Dupont</span>
+                    </div>
+                    <span>5 min de lecture</span>
+                    <span>24 Sept 2024</span>
+                </div>
+                <p class="article-excerpt">
+                    Découvrez comment les nouvelles technologies d'IA révolutionnent notre façon de coder et de créer des applications modernes...
+                </p>
+                <a href="#" class="read-more-btn">Lire la suite →</a>
+            </div>
+        </article>
+    </section>
+
+    <!-- Section des articles récents -->
+    <section class="recent-posts">
+        <div class="section-header">
+            <h2 class="section-title">Articles Récents</h2>
+            <a href="#" class="view-all-link">Voir tous →</a>
+        </div>
+        <div class="posts-grid">
+            <article class="post-card">
+                <div class="post-image"><img src="assets/images/React.png" alt="React Hooks"></div>
+                <div class="post-content">
+                    <span class="post-category">JavaScript</span>
+                    <h3 class="post-title">Maîtriser les Hooks React en 2024</h3>
+                    <span class="post-date">23 Sept 2024</span>
+                </div>
+            </article>
+            <article class="post-card">
+                <div class="post-image"><img src="assets/images/dja.png" alt="FastAPI vs Django"></div>
+                <div class="post-content">
+                    <span class="post-category">Python</span>
+                    <h3 class="post-title">FastAPI vs Django : Le guide complet</h3>
+                    <span class="post-date">22 Sept 2024</span>
+                </div>
+            </article>
+            <article class="post-card">
+                <div class="post-image"><img src="assets/images/docker.png" alt="Docker et Kubernetes"></div>
+                <div class="post-content">
+                    <span class="post-category">DevOps</span>
+                    <h3 class="post-title">Docker et Kubernetes pour débutants</h3>
+                    <span class="post-date">21 Sept 2024</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Section Catégories -->
+    <section class="categories-section">
+        <div class="categories-list">
+            <h2 class="categories-title">Catégories Populaires</h2>
+            <div class="category-item">
+                <span class="category-name">Développement Web</span>
+                <span class="category-count">45</span>
+            </div>
+            <div class="category-item">
+                <span class="category-name">Intelligence Artificielle</span>
+                <span class="category-count">32</span>
+            </div>
+            <div class="category-item">
+                <span class="category-name">Cybersécurité</span>
+                <span class="category-count">28</span>
+            </div>
+            <div class="category-item">
+                <span class="category-name">Cloud Computing</span>
+                <span class="category-count">21</span>
+            </div>
+            <div class="category-item">
+                <span class="category-name">Mobile</span>
+                <span class="category-count">19</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tags Cloud -->
+    <section class="tags-cloud">
+        <div class="tags-container">
+            <h2 class="tags-title">Tags Populaires</h2>
+            <div class="tags-list">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Python</span>
+                <span class="tag">Docker</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">GraphQL</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Vue.js</span>
+                <span class="tag">Machine Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <h2 class="newsletter-title">Restez informé</h2>
+            <p class="newsletter-description">
+                Recevez les dernières actualités tech directement dans votre boîte mail
+            </p>
+            <form class="newsletter-form">
+                <input type="email" class="email-input" placeholder="Votre email">
+                <button type="submit" class="subscribe-btn">S'inscrire</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>À propos</h3>
+                <ul>
+                    <li><a href="#">Notre mission</a></li>
+                    <li><a href="#">L'équipe</a></li>
+                    <li><a href="#">Carrières</a></li>
+                    <li><a href="#">Presse</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Ressources</h3>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Tutoriels</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Open Source</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Communauté</h3>
+                <ul>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Meetups</a></li>
+                    <li><a href="#">Contribuer</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Suivez-nous</h3>
+                <div class="social-links">
+                    <div class="social-icon">f</div>
+                    <div class="social-icon">t</div>
+                    <div class="social-icon">in</div>
+                    <div class="social-icon">gh</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 TechMag. Tous droits réservés. | Mentions légales | Politique de confidentialité</p>
+        </div>
+    </footer>
+</body>
+</html>
