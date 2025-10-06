@@ -1,12 +1,13 @@
 import Form from './moleculaires/Form'
+import { siteInfo } from '../data'
 
 function NewsletterSec() {
     return (
         <section class="newsletter-section">
             <div class="newsletter-content">
-                <h2 class="newsletter-title">Restez informé</h2>
+                <h2 class="newsletter-title">{siteInfo.newsletter.title}</h2>
                 <p class="newsletter-description">
-                    Recevez les dernières actualités tech directement dans votre boîte mail
+                    {siteInfo.newsletter.description}
                 </p>
                 <Form />
             </div>
