@@ -20,14 +20,11 @@ function Footer() {
                 ))}
                 <div class="footer-column">
                 <h3>Suivez-nous</h3>
-                <div class="social-links">
+                <ul class="social-links">
                     {socialLinks.map((social) => (
-                        <div class="social-icon" key={social.id}>f</div>
+                        <li><a href={social.href} class="social-icon" key={social.id}>{social.icon}</a></li>
                     ))}
-                    <div class="social-icon">t</div>
-                    <div class="social-icon">in</div>
-                    <div class="social-icon">gh</div>
-                </div>
+                </ul>
             </div>
             </div>
             <div class="footer-bottom">
